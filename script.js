@@ -57,15 +57,111 @@ const quizArray = [
     "options": ["last()", "push()", "append()", "addToEnd()"],
     "correct": "push()"
   },
+  {
+    "id": "7",
+    "question": "What is the purpose of the CSS property 'font-size'?",
+    "options": [
+      "To set the background color of an element",
+      "To define the size of the font",
+      "To set the width of an element",
+      "To change the text color"
+    ],
+    "correct": "To define the size of the font"
+  },
+  {
+    "id": "8",
+    "question": "Which JavaScript method is used to add new items to the end of an array?",
+    "options": [
+      "pop()",
+      "push()",
+      "shift()",
+      "unshift()"
+    ],
+    "correct": "push()"
+  },
+
+  {
+    "id": "9",
+    "question": "What does the 'display: none;' property do in CSS?",
+    "options": [
+      "It sets the text color to transparent",
+      "It hides the element",
+      "It changes the font size to zero",
+      "It makes the element unclickable"
+    ],
+    "correct": "It hides the element"
+  },
   
+  {
+    "id": "10",
+    "question": "What is the purpose of the JavaScript 'getElementById' method?",
+    "options": [
+      "To get the value of an input field",
+      "To retrieve an element by its class name",
+      "To fetch data from a server",
+      "To retrieve an element by its ID"
+    ],
+    "correct": "To retrieve an element by its ID"
+  },
+  
+  {
+    "id": "11",
+    "question": "What is the purpose of the 'box-sizing: border-box;' property in CSS?",
+    "options": [
+      "To add a border around an element",
+      "To include padding and border in the element's total width and height",
+      "To set the width of the content area",
+      "To change the color of the border"
+    ],
+    "correct": "To include padding and border in the element's total width and height"
+  },
+  
+  {
+    "id": "12",
+    "question": "What is the correct way to comment out a line of code in JavaScript?",
+    "options": [
+      "// This is a comment",
+      "<!-- This is a comment -->",
+      "' This is a comment",
+      "/* This is a comment */"
+    ],
+    "correct": "// This is a comment"
+  },
+  {
+    "id": "13",
+    "question": "What is the purpose of the HTML <header> element?",
+    "options": [
+      "To define a footer for a document or section",
+      "To define introductory content at the beginning of a document or section",
+      "To define navigation links",
+      "To define a header for a document or section"
+    ],
+    "correct": "To define a header for a document or section"
+  },
+  {
+    "id": "14",
+    "question": "Which of the following is not a valid value for the 'position' property in CSS?",
+    "options": [
+      "static",
+      "fixed",
+      "absolute",
+      "relative"
+    ],
+    "correct": "static"
+  },
 
-
-
-
-
-
-
-
+  {
+    "id": "15",
+    "question": "What does the CSS property 'text-align' do?",
+    "options": [
+      "It sets the alignment of the text within an element",
+      "It sets the font style of the text",
+      "It sets the spacing between lines of text",
+      "It sets the spacing between letters of text"
+    ],
+    "correct": "It sets the alignment of the text within an element"
+  },
+  
 
 
 
@@ -104,7 +200,7 @@ nextBtn.addEventListener(
         questionCount + 1 + " of " + quizArray.length + " Question";
       //display quiz
       quizDisplay(questionCount);
-      count = 11;
+      count = 30;
       clearInterval(countdown);
       timerDisplay();
     }
@@ -120,7 +216,7 @@ const timerDisplay = () => {
       clearInterval(countdown);
       displayNext();
     }
-  }, 1000);
+  }, 3000);
 };
 
 //Display quiz

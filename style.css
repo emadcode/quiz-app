@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image:url(https://ecampusontario.pressbooks.pub/app/uploads/sites/2109/2021/11/programming-gb0e197598_1920.jpg);
+  background-image:url(https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg);
 }
 .start-screen,
 .score-container {
@@ -25,6 +25,9 @@ button {
 }
 #start-button,
 #restart {
+  background-color: #b3c3da93;
+  font-style: normal;
+
   font-size: 1.3em;
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
@@ -33,7 +36,7 @@ button {
   margin-top: 0.9em;
 }
 #display-container {
-  background-color: #ffffffa6;
+  background-color: #ffffff62;
   padding: 3.1em 1.8em;
   width: 80%;
   max-width: 37.5em;
@@ -53,7 +56,7 @@ button {
   border-bottom: 0.1em solid #000000d3;
 }
 .timer-div {
-  background-color: #e1f5fe;
+  background-color: #e1f5fe94;
   width: 7.5em;
   border-radius: 1.8em;
   display: flex;

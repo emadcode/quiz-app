@@ -17,16 +17,18 @@
   <body>
     <div class="start-screen">
       <button id="start-button">Start broo you can do it</button>
+      <audio id="clickSound" src="path/to/sound-file.mp3" hidden></audio>
+
     </div>
     <div id="display-container">
       <div class="header">
         <div class="number-of-count">
-          <span class="number-of-question">1 of 6 questions</span>
+          <span class="number-of-question">1 of 15 questions</span>
 
         </div>
         <div class="timer-div">
           <img src="timer-icon.svg" />
-          <span class="time-left">10s</span>
+          <span class="time-left">30s</span>
         </div>
       </div>
       <div id="container">
@@ -40,5 +42,11 @@
     </div>
     <!-- Script  for java -->
     <script src="script.js"></script>
+    <script>
+      document.getElementById("start-button").addEventListener("click", function() {
+        var sound = document.getElementById("clickSound");
+        sound.play();
+      });
+      </script>
   </body>
 </html>
